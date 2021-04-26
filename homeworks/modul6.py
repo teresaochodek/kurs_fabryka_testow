@@ -2,7 +2,7 @@ from selenium import webdriver
 import time
 
 url = 'https://fabrykatestow.pl/'
-driver = webdriver.Chrome('/home/teresa/PycharmProjects/kurs_fabryka_testow/chromedriver')
+driver = webdriver.Chrome('./chromedriver')
 #wejsc na strone fabryka testow
 driver.get(url)
 driver.maximize_window()
